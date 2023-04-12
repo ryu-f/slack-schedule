@@ -1,0 +1,11 @@
+{
+  "apps": {
+    "ryu-f-privatehq": {
+      "name": "ryu-f-privatehq",
+      "app_id": "A052B6YUW7P",
+      "team_id": "T03KTJ359MM",
+      "IsDev": false
+    }
+  },
+  "default": "ryu-f-privatehq"
+}

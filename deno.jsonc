@@ -1,0 +1,27 @@
+{
+  "importMap": "import_map.json",
+  "tasks": {
+    "test": "deno fmt --check && deno lint && deno test --allow-read --allow-none"
+  },
+  "lint": {
+    "files": {
+      "include": ["triggers/", "functions/", "workflows/", "manifest.ts"]
+    },
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["triggers/", "functions/", "workflows/", "manifest.ts"]
+    },
+    "options": {
+      "singleQuote": true
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["triggers/", "functions/", "workflows/", "manifest.ts"],
+    }
+  }
+}
